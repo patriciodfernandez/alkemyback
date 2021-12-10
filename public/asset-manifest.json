@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.680f6d48.chunk.css",
+    "main.js": "/static/js/main.c004172b.chunk.js",
+    "main.js.map": "/static/js/main.c004172b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.90ce8c3f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.90ce8c3f.js.map",
+    "static/css/2.bd932d36.chunk.css": "/static/css/2.bd932d36.chunk.css",
+    "static/js/2.291356a7.chunk.js": "/static/js/2.291356a7.chunk.js",
+    "static/js/2.291356a7.chunk.js.map": "/static/js/2.291356a7.chunk.js.map",
+    "static/js/3.b950aaec.chunk.js": "/static/js/3.b950aaec.chunk.js",
+    "static/js/3.b950aaec.chunk.js.map": "/static/js/3.b950aaec.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.bd932d36.chunk.css.map": "/static/css/2.bd932d36.chunk.css.map",
+    "static/css/main.680f6d48.chunk.css.map": "/static/css/main.680f6d48.chunk.css.map",
+    "static/js/2.291356a7.chunk.js.LICENSE.txt": "/static/js/2.291356a7.chunk.js.LICENSE.txt",
+    "static/media/libro-mayor.4e8d30be.png": "/static/media/libro-mayor.4e8d30be.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90ce8c3f.js",
+    "static/css/2.bd932d36.chunk.css",
+    "static/js/2.291356a7.chunk.js",
+    "static/css/main.680f6d48.chunk.css",
+    "static/js/main.c004172b.chunk.js"
+  ]
+}
