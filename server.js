@@ -7,7 +7,8 @@ const db = require('./db')
 const path = require('path')
 
 const app = express();
- 
+app.set('port', process.env.PORT || 4000)
+
 
 app.use(morgan('tiny'))
 
@@ -30,8 +31,12 @@ app.use((err, req, res, next) => {
 
 db.sync({ force: false }).then(() => {
   /* force: true */
-  app.listen(8080,"0.0.0.0", () => {
-    console.log(`Server listening at port 8080`);
-  });
+  // http.createServer(app).listen(80,"0.0.0.0", () => {
+  //   console.log(`Server listening at port 8080`);
+  // });
+  app.listen(app.get('port'), () => {
+    // console.log(path.join(__dirname, '../public'))
+    console.log('estoy escuchando el puerto ', +app.get('port'))
+})
 }); 
 
