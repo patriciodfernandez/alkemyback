@@ -30,7 +30,7 @@ app.use((err, req, res, next) => {
 
 db.sync({ force: false }).then(() => {
   /* force: true */
-  server.listen(8080,"0.0.0.0", () => {
+  app.listen(8080,"0.0.0.0", () => {
     console.log(`Server listening at port 8080`);
   });
 }); 
