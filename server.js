@@ -30,6 +30,8 @@ app.use((err, req, res, next) => {
 
 db.sync({ force: false }).then(() => {
   /* force: true */
- 
+  http.createServer(app).listen(80,"0.0.0.0", () => {
+    console.log(`Server listening at port 8080`);
+  });
 }); 
 
