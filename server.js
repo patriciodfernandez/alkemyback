@@ -17,6 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 
 //RUTAS
 app.use('/api', routes)
+app.use(express.static(path.join(__dirname, './public')))
 
 // error middleware -> https://expressjs.com/es/guide/error-handling.html
 app.use((err, req, res, next) => {
