@@ -4,8 +4,10 @@ const cors = require("cors");
 const morgan = require('morgan')
 const routes = require('./routes')
 const db = require('./db')
-const app = express();
+const path = require('path')
 
+const app = express();
+ 
 
 app.use(morgan('tiny'))
 
